@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Kasenov</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#about-me" onclick="select()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="select()">SKILLS</a></li>
+                    <li><a href="#portfolio" onclick="select()">PORTFOLIO</a></li>
+                    <li><a href="#contact" onclick="select()">CONTACT</a></li>
+                </ul>
+                
+            </nav>
+            <div class="nav-responsive" onclick="showHideMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <section id="about-me" class="about-me">
+        <div class="content-banner">
+            <div class="container-img">
+               Photos can be taken to Instagram
+            </div>
+            <h1>AKTAN KASENOV</h1>
+            <h2>Frontend Developer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum odio inventore iusto libero, fuga quas veniam! Nobis dolorum nesciunt odio expedita omnis iure aliquid qui quidem cumque, perspiciatis autem hic!</p>
+            <div class="networks">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="content-section">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="progress javascript">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="skill-bar">
+                            <div class="progress htmlcss">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>WordPress</span>
+                        <div class="skill-bar">
+                            <div class="progress wordpress">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="skill-bar">
+                            <div class="progress photoshop">
+                                <span>56%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Drupa</span>
+                        <div class="skill-bar">
+                            <div class="progress drupal">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="skill-bar">
+                            <div class="progress communication">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="skill-bar">
+                            <div class="progress teamwork">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="skill-bar">
+                            <div class="progress creativity">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Didication</span>
+                        <div class="skill-bar">
+                            <div class="progress didication">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="skill-bar">
+                            <div class="progress project-Management">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="container-section">
+            <h2>PORTFOLIO</h2>
+            <div class="gallery">
+                <div class="project">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Web Site</h3>
+                        <p>Photo</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./img/p2.png" alt="">
+                    <div class="overlay">
+                        <h3>Music Player</h3>
+                        <p>Photo</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./img/p3.png" alt="">
+                    <div class="overlay">
+                        <h3>Render Practice</h3>
+                        <p>Photo</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p4.png" alt="">
+                    <div class="overlay">
+                        <h3>Todo List</h3>
+                        <p>Photo</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p5.png" alt="">
+                    <div class="overlay">
+                        <h3>Order Basked</h3>
+                        <p>Photo</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p6.png" alt="">
+                    <div class="overlay">
+                        <h3>Fetch</h3>
+                        <p>Photo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="content-section">
+            <h2>CONTACT</h2>
+            <div class="row">
+                
+                <div class="col">
+                    <input type="text" placeholder="Your name">
+                    <input type="text" placeholder="Phone number">
+                    <input type="text" placeholder="Mail address">
+                    <input type="text" placeholder="Issue">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Karakol, Zarechka
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                +996 501-0-3922-0 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: karakolsky09@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#about-me" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+        <h5 class="ka">@qkasenov</h5>
+    </footer>
+
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/7d94abab8a.js" crossorigin="anonymous"></script>
+</body>
+</html>
